@@ -46,3 +46,30 @@ Whether the wishlist fits within the user’s budget
 Save and Exit
 
 Writes all changes back to games.txt
+
+
+Main Menu:
+
+Option 1 allows you to view all games
+
+Option 2 allows you to add a new game
+
+Option 3 allows you to delete a game
+
+Option 4 allows you to update a games price, status, or both
+
+Option 5 allows you to add a budget and see the total cost of the wishlist
+
+Option 6 saves & exits the program
+
+
+Troubleshooting
+
+
+Issue	Solution
+
+FileNotFoundError for games.txt	create the file manually or ensure it’s in the project folder
+
+If the price is not updating enter numeric values only (no $)
+
+Game not found during deletion/update	check spelling because search is case insensitive
